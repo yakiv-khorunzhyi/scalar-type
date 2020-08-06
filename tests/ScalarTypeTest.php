@@ -4,7 +4,7 @@ use Core\Types;
 use Core\Exceptions\UnexpectedValueException;
 use Core\Exceptions\UnexpectedTypeException;
 
-class ValueObjectTest extends PHPUnit_Framework_TestCase
+class ScalarTypeTest extends PHPUnit_Framework_TestCase
 {
     public function getProvidedData()
     {
