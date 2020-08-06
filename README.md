@@ -3,7 +3,7 @@
 ## Installation
 Install the latest version with:
 ```
-$ composer require yakiv-khorunzhyi/value-object
+$ composer require yakiv-khorunzhyi/scalar-type
 ```
 
 ## Examples
