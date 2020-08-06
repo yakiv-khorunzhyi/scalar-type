@@ -2,7 +2,7 @@
 
 namespace Core;
 
-class ValueObject
+class ScalarType
 {
     /**
      * @var string
@@ -20,7 +20,7 @@ class ValueObject
     protected $formatted;
 
     /**
-     * ValueType constructor.
+     * ScalarType constructor.
      *
      * @param int|float|string|bool $value
      * @param string $type

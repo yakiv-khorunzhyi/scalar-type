@@ -1,5 +1,5 @@
 {
-    "name": "yakiv-khorunzhyi/value-type",
+    "name": "yakiv-khorunzhyi/scalar-type",
     "description": "Scalar type as object.",
     "type": "library",
     "license": "MIT",

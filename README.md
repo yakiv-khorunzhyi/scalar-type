@@ -8,7 +8,7 @@ $ composer require yakiv-khorunzhyi/value-object
 
 ## Examples
 ```
-$address = new Core\ValueObject('Country,city,street', Core\Types::STRING);
+$address = new Core\ScalarType('Country,city,street', Core\Types::STRING);
 
 $address->setFormatRule(function ($val) {
     return explode(',', $val);

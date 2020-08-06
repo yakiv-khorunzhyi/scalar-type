@@ -102,11 +102,11 @@ class ValueObjectTest extends PHPUnit_Framework_TestCase
     {
         if ($exception) {
             $this->expectException($exception);
-            new \Core\ValueObject($value, $type);
+            new \Core\ScalarType($value, $type);
             return;
         }
 
-        $valueType = new \Core\ValueObject($value, $type);
+        $valueType = new \Core\ScalarType($value, $type);
         $valueType->setFormatRule($rule);
 
         $this->assertEquals(
