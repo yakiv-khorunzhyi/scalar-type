@@ -1,4 +1,4 @@
-# Value Object
+# Scalar Type
 
 ## Installation
 Install the latest version with:
